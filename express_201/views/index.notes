@@ -1,0 +1,13 @@
+<!-- <h1> <%= locals.msg %></h1>
+<h1> <%= locals.msg2 %></h1>
+<h3> <%= locals.validated %></h3>
+
+<%# tell ejs to render as html tag -- output unescape -- not just text%>
+<%- html %> -->
+
+<% include head %>
+<% include navbar %>
+
+<h1>Home page!</h1>
+<%= msg %>
+
